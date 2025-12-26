@@ -1,61 +1,54 @@
-# Data Professional Survey Analysis – Power BI Dashboard
+# Data Professional Survey – Power BI Dashboard
 
 ## Overview
-This project is an exploratory Power BI dashboard created to analyze survey data from data professionals. The dashboard provides insights into job roles, salary trends, skill usage, and job satisfaction within the data industry.
+This project is a Power BI dashboard built to explore survey data from data professionals. The dashboard looks at job roles, salary levels, commonly used tools, and how satisfied people are with their salary and work-life balance.
 
-The goal of the project is to transform raw survey data into clear, interactive visuals that help users better understand trends and patterns in data-related careers.
-
----
-
-## Business Context
-People entering or working in the data field often lack structured information about:
-- Common job roles and career paths  
-- Salary differences across roles  
-- In-demand programming languages  
-- Satisfaction with salary and work-life balance  
-
-This dashboard brings these insights together in a single, easy-to-understand view.
+The main idea was to take a raw survey dataset and turn it into something easy to understand and useful through clear visuals and basic KPIs.
 
 ---
 
-## Key Features & KPIs
-- Count of survey respondents  
-- Average age of data professionals  
+## Why This Project
+When looking into data-related careers, it is often hard to find clear and structured information about salaries, skills, and job satisfaction. This dashboard brings these points together in one place so trends and comparisons can be seen more easily.
+
+---
+
+## What the Dashboard Shows
+- Number of survey respondents  
+- Average age of participants  
 - Average salary by job role  
-- Perceived difficulty of breaking into the data field  
-- Salary satisfaction score (0–10)  
-- Work-life balance satisfaction score (0–10)  
+- Perceived difficulty of getting into the data field  
+- Salary satisfaction score  
+- Work-life balance satisfaction score  
 
 ---
 
-## Data Source
-- Dataset: Data Professional Survey  
+## Data Used
+- Data Professional Survey  
 - Format: Excel / CSV  
-- Records: ~630 survey responses  
-- Type: Structured survey data (demographics, roles, skills, salaries, ratings)
+- Around 630 survey responses  
+- Includes roles, salaries, skills, ratings, and demographics  
 
 ---
 
-## Tools Used
+## Tools
 - Power BI  
-- Power Query (data cleaning and transformation)  
-- DAX (calculated measures and KPIs)  
+- Power Query for cleaning and shaping the data  
+- DAX for calculated measures  
 
 ---
 
-## Files in This Repository
-- `Data_Professional_Survey.pbix` – Power BI dashboard file  
+## Repository Contents
+- `Data_Professional_Survey.pbix` – Power BI file  
 - `Data_Professional_Survey.xlsx` – Source dataset  
-- `screenshots/` – Dashboard preview images  
+- `screenshots/` – Images of the dashboard  
 
 ---
 
 ## Notes
-This dashboard was created before my role at Siemens Energy as a personal analytics project.  
-The project was inspired by guided learning resources from **Alex The Analyst**, and all data modeling, measures, and visuals were implemented independently in Power BI.
+This dashboard was created before my role at Siemens Energy as a personal learning project. It was inspired by a guided project from **Alex The Analyst**, but the data model, measures, and visuals were built independently in Power BI.
 
 ---
 
 ## Author
 Rizwan Iftikhar  
-Power BI Analyst | Data Visualization | KPI Dashboards
+Power BI Analyst
